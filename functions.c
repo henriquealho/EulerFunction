@@ -3,7 +3,7 @@
 #include <math.h>
 
 // Check if a number is Prime using the sqrt
-int ifPrime(int n) { 
+int isPrime(int n) { 
 	
 	int i;
 	if(n==1 || n==0) return 0; // 1 and 0 are not prime numbers !
